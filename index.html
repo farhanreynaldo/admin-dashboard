@@ -4,34 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/css/brands.css" rel="stylesheet" />
+    <link href="assets/css/solid.css" rel="stylesheet" />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="logo"></div>
-        <p>Dashboard</p>
-        <ul class="sidebar-menu">
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-        </ul>
-        <ul class="sidebar-helpers">
-          <li>Settings</li>
-          <li>Supports</li>
-          <li>Privacy</li>
-        </ul>
+        <div class="logo-name">
+          <i class="logo fa-solid fa-ghost fa-2x"></i>
+          <p>Dashboard</p>
+        </div>
+        <div class="sidebar-menu">
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-house fa-sm fa-sm"></i></span
+              >Home
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-id-card fa-sm"></i></span
+              >Profile
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-comment fa-sm"></i></span
+              >Messages
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-clock fa-sm"></i></span
+              >History
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-file fa-sm"></i></span
+              >Tasks
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-user-group fa-sm"></i></span
+              >Communities
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar-helpers">
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-gear fa-sm"></i></span
+              >Settings
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-circle-question fa-sm"></i></span
+              >Supports
+            </li>
+            <li>
+              <span class="fa-li"
+                ><i class="fa-solid fa-shield-halved fa-sm"></i></span
+              >Privacy
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="header">
         <div class="search">
-          <div class="search-icon"></div>
+          <i class="fa-solid fa-search"></i>
           <div class="search-bar"></div>
         </div>
         <div class="profile-settings">
-          <div class="notification"></div>
+          <i class="fa-solid fa-bell"></i>
           <div class="avatar"></div>
           <p>Farhan Hutabarat</p>
         </div>
@@ -41,11 +83,9 @@
           <p>Farhan Hutabarat</p>
         </div>
         <div class="profile-options">
-          <ul>
-            <li>New</li>
-            <li>Upload</li>
-            <li>Share</li>
-          </ul>
+          <div>New</div>
+          <div>Upload</div>
+          <div>Share</div>
         </div>
       </div>
       <div class="content">
@@ -54,59 +94,94 @@
           <div class="cards">
             <div class="card">
               <p>Project A</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
             <div class="card">
               <p>Project B</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
             <div class="card">
               <p>Project C</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
             <div class="card">
               <p>Project D</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
             <div class="card">
               <p>Project E</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
             <div class="card">
               <p>Project F</p>
-              <p>Some articles</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse sed eros sed arcu elementum ornare. Aliquam ac velit
+                a orci viverra sodales at non est. Donec tempus nibh quis urna.
+              </p>
             </div>
           </div>
         </div>
         <div class="announcements">
-          <h3>announcements</h3>
-          <ul>
-            <li>Site maintenance</li>
-            <li>Community share day</li>
-            <li>Updated privacy policy</li>
-          </ul>
+          <h3>Announcements</h3>
+          <div class="info">
+            <div>
+              <p><strong>Site maintenance</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+              <p><strong>Community share day</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div>
+              <p><strong>Updated privacy policy</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
         </div>
         <div class="trending">
           <h3>Trending</h3>
-          <div class="item">
-            <div class="avatar"></div>
-            <p>Username</p>
-            <p>name</p>
-          </div>
-          <div class="item">
-            <div class="avatar"></div>
-            <p>Username</p>
-            <p>name</p>
-          </div>
-          <div class="item">
-            <div class="avatar"></div>
-            <p>Username</p>
-            <p>name</p>
-          </div>
-          <div class="item">
-            <div class="avatar"></div>
-            <p>Username</p>
-            <p>name</p>
+          <div class="user-info">
+            <div class="item">
+              <div class="avatar"></div>
+              <p>Username</p>
+              <p>name</p>
+            </div>
+            <div class="item">
+              <div class="avatar"></div>
+              <p>Username</p>
+              <p>name</p>
+            </div>
+            <div class="item">
+              <div class="avatar"></div>
+              <p>Username</p>
+              <p>name</p>
+            </div>
+            <div class="item">
+              <div class="avatar"></div>
+              <p>Username</p>
+              <p>name</p>
+            </div>
           </div>
         </div>
       </div>
